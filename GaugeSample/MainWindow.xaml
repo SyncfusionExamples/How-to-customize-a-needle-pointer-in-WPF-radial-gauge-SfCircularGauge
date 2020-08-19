@@ -1,0 +1,29 @@
+﻿<Window x:Class="GaugeSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GaugeSample"
+        mc:Ignorable="d"
+            xmlns:syncfusion="http://schemas.syncfusion.com/wpf"            
+        Title="MainWindow" Height="450" Width="800">
+
+
+    <Grid>
+        <syncfusion:SfCircularGauge >
+            <syncfusion:SfCircularGauge.Scales>
+                <syncfusion:CircularScale  ShowRim="False"  LabelPosition="Outside" TickPosition="Outside" FontSize="10" FontWeight="SemiBold" RadiusFactor="0.7" Interval="10" ShowFirstLabel="False" MinorTicksPerInterval="2" TickLength="20"  StartAngle="90" SweepAngle="360" StartValue="0" EndValue="100"  >
+                    <syncfusion:CircularScale.Pointers>
+                        <syncfusion:CircularPointer NeedlePointerType="Triangle"  NeedlePointerStroke="#39b2c6" KnobRadiusFactor="0.2" KnobStroke="LightPink" KnobStrokeThickness="6" KnobFill="#39b2c6" NeedlePointerStrokeThickness="25" NeedleLengthFactor="0.8" Value="50"/>
+                    </syncfusion:CircularScale.Pointers>
+                    <syncfusion:CircularScale.MajorTickSettings>
+                        <syncfusion:MajorTickSetting Stroke="#c1c1c1" StrokeThickness="1"  Offset="0.5"  Length="20"/>
+                    </syncfusion:CircularScale.MajorTickSettings>
+                    <syncfusion:CircularScale.MinorTickSettings>
+                        <syncfusion:MinorTickSetting Stroke="#c1c1c1" StrokeThickness="2" Offset="0.5" Length="8"/>
+                    </syncfusion:CircularScale.MinorTickSettings>
+                </syncfusion:CircularScale>
+            </syncfusion:SfCircularGauge.Scales>
+        </syncfusion:SfCircularGauge>
+    </Grid>
+</Window>
