@@ -48,6 +48,8 @@ You can customize the needle pointer knob size, fill, stroke and stroke thicknes
             </syncfusion:SfCircularGauge>
 ```
 
+KB article - [How to customize a needle pointer in WPF radial gauge (SfCircularGauge)](https://www.syncfusion.com/kb/11929/how-to-customize-a-needle-pointer-knob-in-wpf-radial-gauge-sfcirculargauge)
+
 **See also**
 
 [Needle pointer and customization in WPF SfCircularGauge](https://help.syncfusion.com/wpf/radial-gauge/pointers#needle-pointer)
