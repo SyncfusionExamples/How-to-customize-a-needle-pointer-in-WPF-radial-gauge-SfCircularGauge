@@ -2,6 +2,8 @@
 
 This repository explains how to customize a needle pointer knob in [Syncfusion WPF SfCircularGauge](https://help.syncfusion.com/wpf/radial-gauge/getting-started) control.
 
+Please refer the KB through this [link](https://www.syncfusion.com/kb/11929/how-to-customize-a-needle-pointer-knob-in-wpf-radial-gauge-sfcirculargauge).
+
 ## Syncfusion controls
 
 This project used the following Syncfusion control(s):
